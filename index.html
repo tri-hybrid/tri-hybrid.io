@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="THOR explores the joint design of digital processing, analog RF, and reconfigurable electromagnetic apertures for extreme MIMO systems. Research, news, and public releases.">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>THOR — A new dimension of wireless control</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="THOR home"><span class="brand-symbol" aria-hidden="true">✳</span>THOR<span class="wordmark-caption">EXTREME MIMO<br>RESEARCH</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">＋</span></button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#updates">News & releases</a><a href="#roadmap">What's ahead</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> THREE LAYERS. ONE RESEARCH FRONTIER.</p>
+        <h1 id="hero-title">A new dimension<br>of <em>wireless</em><br><span class="hero-last">control<span class="period">.</span></span></h1>
+        <p class="hero-description">Digital intelligence. Analog precision. Reconfigurable physics. THOR brings them together to rethink extreme MIMO systems.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#research">Explore the research <span aria-hidden="true">↗</span></a><a class="text-link" href="#updates">Project updates <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Conceptual illustration of three control layers forming a radiating aperture">
+        <div class="art-topline"><span>THE TRI-HYBRID APERTURE</span><span>CONCEPT / 001</span></div>
+        <svg class="aperture-svg" viewBox="0 0 600 550" role="img" aria-labelledby="aperture-title aperture-desc">
+          <title id="aperture-title">Three layers of control</title><desc id="aperture-desc">Digital and analog planes connect to a reconfigurable electromagnetic aperture. Blue curves depict a conceptual radiated field, not simulated performance.</desc>
+          <defs>
+            <pattern id="art-grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#9baba8" opacity=".35"/></pattern>
+            <linearGradient id="plane-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce7ff" stop-opacity=".9"/><stop offset="1" stop-color="#f1f5ff" stop-opacity=".4"/></linearGradient>
+            <linearGradient id="beam-fill" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1455ed" stop-opacity=".24"/><stop offset="1" stop-color="#1455ed" stop-opacity="0"/></linearGradient>
+          </defs>
+          <rect width="600" height="550" fill="url(#art-grid)"/>
+          <g class="field-lines" fill="none" stroke="#1455ed">
+            <path d="M292 270Q350 90 568 25Q574 196 392 330Z" fill="url(#beam-fill)" stroke="none"/>
+            <path d="M320 274Q358 148 518 70" stroke-width="1.7"/><path d="M335 286Q430 213 548 151" stroke-width="1.5"/>
+            <path d="M354 303Q450 281 573 244" stroke-width="1.2"/><path d="M289 252Q302 167 385 97" opacity=".5"/>
+            <path d="M376 125Q410 148 427 194"/><path d="M414 81Q471 113 486 169"/><path d="M457 43Q534 83 552 147"/>
+          </g>
+          <g stroke="#283c5d" stroke-width="1.1">
+            <path d="M77 356L274 247L446 346L249 460Z" fill="#e3e4de"/>
+            <path d="M77 356V373L249 477L446 363V346M249 460V477" fill="none"/>
+            <path d="M77 287L274 178L446 277L249 391Z" fill="#cbd3d6" fill-opacity=".84"/>
+            <path d="M77 287V304L249 408L446 294V277M249 391V408" fill="none"/>
+            <path d="M77 217L274 108L446 207L249 321Z" fill="url(#plane-fill)" stroke="#1455ed"/>
+            <path d="M77 217V234L249 338L446 224V207M249 321V338" fill="none" stroke="#1455ed"/>
+          </g>
+          <g id="aperture-elements" fill="#1455ed"></g>
+          <g stroke="#637084" stroke-width="1" stroke-dasharray="4 5" opacity=".7"><path d="M113 240v62m99-4v62m98-92v62m98-149v62"/></g>
+          <g font-family="monospace" font-size="11" fill="#495567"><path d="M93 369L41 399H16" stroke="#7a8492" fill="none"/><text x="16" y="420">01 / DIGITAL</text><path d="M417 298l58 34h89" stroke="#7a8492" fill="none"/><text x="475" y="351">02 / ANALOG RF</text><path d="M422 201l57-33h85" stroke="#1455ed" fill="none"/><text x="440" y="154" fill="#1455ed">03 / ELECTROMAGNETIC</text></g>
+        </svg>
+        <div class="art-bottomline"><span><i></i> FROM SIGNALS TO FIELDS</span><span>ILLUSTRATIVE, NOT SIMULATED</span></div>
+      </div>
+      <div class="hero-foot"><p>Tri-Hybrid Optimization and Reconfiguration<br>for Extreme MIMO Systems</p><div class="partners"><span>A RESEARCH COLLABORATION</span><strong>MITRE <span class="partner-cross">×</span> UC San Diego</strong></div><a href="#research" class="scroll-cue" aria-label="Scroll to research">↓</a></div>
+    </section>
+
+    <section id="research" class="research section-pad" aria-labelledby="research-title">
+      <div class="section-kicker"><span>01 / THE RESEARCH</span><span>BEYOND THE FIXED ANTENNA</span></div>
+      <div class="section-heading"><h2 id="research-title">Make the antenna<br>part of the <em>algorithm.</em></h2><p>Conventional hybrid MIMO combines digital and analog processing. Tri-hybrid design adds a third degree of control: the electromagnetic behavior of the antenna itself.</p></div>
+      <div class="architecture-explorer">
+        <div class="layer-tabs" role="tablist" aria-label="Explore the three layers">
+          <button id="tab-digital" class="layer-tab active" type="button" role="tab" aria-selected="true" aria-controls="layer-panel" data-layer="digital"><span class="layer-index">01</span><span>Digital baseband<small>Shape the information</small></span><span class="layer-arrow" aria-hidden="true">↗</span></button>
+          <button id="tab-analog" class="layer-tab" type="button" role="tab" aria-selected="false" aria-controls="layer-panel" data-layer="analog" tabindex="-1"><span class="layer-index">02</span><span>Analog RF<small>Connect signals to ports</small></span><span class="layer-arrow" aria-hidden="true">↗</span></button>
+          <button id="tab-electromagnetic" class="layer-tab" type="button" role="tab" aria-selected="false" aria-controls="layer-panel" data-layer="electromagnetic" tabindex="-1"><span class="layer-index">03</span><span>Electromagnetic aperture<small>Reconfigure the physics</small></span><span class="layer-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div id="layer-panel" class="layer-panel" role="tabpanel" aria-labelledby="tab-digital" tabindex="0">
+          <div class="signal-visual" aria-hidden="true"><span class="signal-visual-label">STREAMS → RF CHAINS</span><svg viewBox="0 0 440 125" id="layer-visual"><g id="signal-paths"></g></svg></div>
+          <p class="eyebrow" id="layer-label">LAYER 01 / DIGITAL BASEBAND</p><h3 id="layer-title">Start with the signal.</h3><p id="layer-description">Digital processing maps information streams to the available RF chains. It adapts precoding or combining to the effective channel created by all three layers.</p><p class="layer-constraint" id="layer-constraint">Design question: how should streams share the available RF chains?</p>
+        </div>
+      </div>
+      <div class="research-principles"><article><span>↗</span><h3>Joint control</h3><p>Co-design the layers. A change in antenna state can change the channel that digital and analog processing must use.</p></article><article><span>⌁</span><h3>Physical constraints</h3><p>Keep coupling, loss, bandwidth, realizable states, and architecture-dependent power in the model.</p></article><article><span>◎</span><h3>Evidence first</h3><p>Evaluate tradeoffs against matched baselines. Simulation results are a starting point for validation, not universal hardware gains.</p></article></div>
+      <div class="reading-note"><div><span class="eyebrow">FURTHER READING</span><h3>The foundations behind the direction</h3><p>Explore published research on tri-hybrid architecture and electromagnetic reconfiguration.</p></div><a href="https://arxiv.org/abs/2501.16610" target="_blank" rel="noopener noreferrer">Tri-hybrid MIMO architecture <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div>
+    </section>
+
+    <section id="updates" class="updates section-pad" aria-labelledby="updates-title">
+      <div class="section-kicker"><span>02 / PROJECT LOG</span><span>RESEARCH IN THE OPEN</span></div>
+      <div class="updates-heading"><h2 id="updates-title">What's <em>new.</em></h2><p>Follow the ideas, artifacts, and milestones<br>as the research takes shape.</p></div>
+      <div class="updates-toolbar"><div class="update-tabs" role="tablist" aria-label="Project updates"><button id="news-tab" role="tab" aria-selected="true" aria-controls="updates-panel" data-update="news" class="active">News <span id="news-count">1</span></button><button id="releases-tab" role="tab" aria-selected="false" aria-controls="updates-panel" data-update="releases" tabindex="-1">Releases <span id="releases-count">0</span></button></div><label class="search-label"><span aria-hidden="true">⌕</span><span class="sr-only">Search project updates</span><input id="update-search" type="search" placeholder="Search updates" autocomplete="off"></label></div>
+      <div id="updates-panel" role="tabpanel" aria-labelledby="news-tab" tabindex="0"><div id="update-results"></div></div><p id="update-status" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="roadmap" class="roadmap section-pad" aria-labelledby="roadmap-title">
+      <div class="section-kicker"><span>03 / THE HORIZON</span><span>PLANNED RESEARCH OUTPUTS</span></div>
+      <div class="section-heading"><h2 id="roadmap-title">From questions<br>to <em>shared tools.</em></h2><p>A direction for future work. These are planned deliverables, with timing and scope to be established as research progresses.</p></div><div id="roadmap-items" class="roadmap-items"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#">THOR<span aria-hidden="true">✳</span></a><p>Tri-Hybrid Optimization and Reconfiguration<br>for Extreme MIMO Systems</p><div><span>MITRE × UC San Diego</span><a href="#main">Back to top ↑</a></div><p class="footer-note">A research project exploring the next dimension of wireless systems.</p></footer>
+  <noscript><p class="noscript-note">JavaScript powers the research explorer and project updates. The research introduction remains available above.</p></noscript>
+</body>
+</html>
